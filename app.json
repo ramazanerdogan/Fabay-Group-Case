@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "NotificationApp",
+    "slug": "NotificationApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff",
+        "googleMapsApiKey":"AIzaSyA1zPQfM7CVn6CHP7YG2Op0hbMTe6CjeNw",
+        "permissions": [
+          "ACCESS_COARSE_LOCATION",
+          "ACCESS_FINE_LOCATION"
+        ]  
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
